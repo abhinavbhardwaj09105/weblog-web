@@ -83,12 +83,12 @@ const UserAuthForm = ({ type }) => {
         ) : (
             <AnimateWrap keyValue={type}>
                 <section className="h-cover flex flex-col md:flex-row items-center justify-between">
-                    <div className="w-2/3 md:w-auto">
+                    <div className="md:w-auto w-2/3">
                         <img src={coverImage} alt="" className="" />
                     </div>
                     <Toaster />
-                    <form id="formElement" className="w-2/3 max-w-[400px]">
-                        <h1 className="md:text-3xl text-xl font-semibold capitalize text-center mb-4 md:mb-24">
+                    <form id="formElement" className="w-auto max-w-[400px]">
+                        <h1 className="md:text-3xl text-2xl font-semibold capitalize text-center mb-4 md:mb-24">
                             {type === "sign-in" ? "welcome, we missed you" : "Connect with us"}
                         </h1>
                         {
@@ -124,7 +124,7 @@ const UserAuthForm = ({ type }) => {
                             <p>Or</p>
                             <hr className="w-1/2 border-black" />
                         </div>
-                        <button className="btn-light flex items-center text-base justify-center gap-4 center w-full">
+                        <button className="hidden btn-light md:flex items-center text-base justify-center gap-4 center w-full">
                             <img src={google} alt="" className="w-5" />
                             continue with google
                         </button>
