@@ -269,7 +269,7 @@ const BlogPage = () => {
             {showTooltip && (
               <div
                 ref={tooltipRef}
-                className="fixed top-10 left-1/2 transform -translate-x-1/2  bg-gradient-to-br from-[#fe9a48] to-[#df4afd] via-[#9754f6] text-fuchsia-50 px-4 py-2 rounded-lg shadow-lg"
+                className="text-base fixed md:top-10 top-20 w-[90%] md:w-auto left-1/2 transform -translate-x-1/2  bg-gradient-to-br from-[#fe9a48] to-[#df4afd] via-[#9754f6] text-fuchsia-50 px-4 py-2 rounded-lg shadow-lg"
                 style={{ zIndex: 1000 }}
               >
                 Select 15 or more words to spin a summary...
