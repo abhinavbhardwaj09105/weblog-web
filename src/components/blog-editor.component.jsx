@@ -440,7 +440,7 @@ const BlogEditor = () => {
             <textarea
               defaultValue={title}
               placeholder="Blog Title"
-              className="text-4xl font-medium w-full h-20 outline-none resize-none mt-10 leading-tight placeholder:opacity-40 bg-white"
+              className="md:text-4xl text-2xl font-medium w-full h-20 outline-none resize-none mt-10 leading-tight placeholder:opacity-40 bg-white"
               onKeyDown={handleTitleKeyDown}
               onChange={handleTitleChange}
             ></textarea>
@@ -465,10 +465,10 @@ const BlogEditor = () => {
             {showTooltip && (
               <div
                 ref={tooltipRef}
-                className="fixed top-10 left-1/2 transform -translate-x-1/2  bg-gradient-to-br from-violet-600 to-violet-400 via-blue-500 text-fuchsia-50 px-4 py-2 rounded-lg shadow-lg"
+                className="fixed w-[90%] md:w-auto md:top-10 top-20 left-1/2 transform -translate-x-1/2  bg-gradient-to-br from-violet-600 to-violet-400 via-blue-500 text-fuchsia-50 px-4 py-2 rounded-lg shadow-lg"
                 style={{ zIndex: 1000 }}
               >
-                Write and Select 15 or more words to start paraphrasing..
+                Select 15 or more words to paraphrase..
               </div>
             )}
 
