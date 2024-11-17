@@ -21,7 +21,7 @@ export const profileDataStructure = {
     },
     account_info: {
         total_posts: 0,
-        total_blogs: 0
+        total_blogs: 0,
     },
     social_links: { },
     joinedAt: " "
@@ -115,7 +115,7 @@ const ProfilePage = () => {
                                 {profile_username}</h1>
                                 <p className="text-xl capitalize h-6">{fullname}</p>
 
-                                <p>{total_posts.toLocaleString()} Blogs - {total_reads.toLocaleString()} Reads</p>
+                                <p>{total_posts.toLocaleString()} Blogs | {total_reads.toLocaleString()} Reads</p>
 
                                 <div className="flex gap-4 mt-2">
                                     {
