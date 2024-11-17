@@ -47,12 +47,12 @@ const HeroSection = () => {
           </span>{" "}
           designed for modern storytellers.
         </h1>
-        <p className="text-base leading-7 text-black md:text-2xl">
-        Capture your readers attention with AI-powered features.<br />
+        <p className="text-base leading-7 md:leading-9 text-black md:text-2xl">
+        Capture your readers attention with AI-powered features and more.<br />
         Join us in unleashing the power of storytelling.
         </p>
 
-        <div className="flex gap-16 md:gap-0 mt-10">
+        <div className="flex gap-20 md:gap-0 mt-10">
           <Link to="/latest" className="w-1/4">
             <button className="btn h-12 md:w-44 w-40 text-sm md:text-base">get started</button>
           </Link>
