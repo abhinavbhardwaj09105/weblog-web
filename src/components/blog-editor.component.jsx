@@ -173,7 +173,7 @@ const BlogEditor = () => {
         });
 
         const response = await axios.post(
-          "https://modelsbywe.onrender.com/paraphrase",
+          import.meta.env.VITE_AI_MODELS_URL +  "/paraphrase",
           { text: selectedText }
         );
 
@@ -255,7 +255,7 @@ const BlogEditor = () => {
 
           // Send the last 10 words to the /predict API
           const response = await axios.post(
-            "https://modelsbywe.onrender.com/predictor",
+            import.meta.env.VITE_AI_MODELS_URL + "/predictor",
             { text: last10Words }
           );
 

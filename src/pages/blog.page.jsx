@@ -123,7 +123,7 @@ const BlogPage = () => {
           id: "summary-loading",
         });
 
-        const response = await axios.post("https://modelsbywe.onrender.com/summarize", {
+        const response = await axios.post(import.meta.env.VITE_AI_MODELS_URL + "/summarize", {
           text: selectedText,
         });
 
