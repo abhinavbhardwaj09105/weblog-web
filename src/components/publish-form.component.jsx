@@ -150,22 +150,22 @@ const PublishForm = () => {
                         <img src={banner} alt="Blog Banner" />
                     </div>
 
-                    <h1 className="text-4xl font-medium mt-2 leading-tight line-clamp-2">{title}</h1>
-                    <p className="font-gelasio line-clamp-2 text-xl leading-7 mt-4">{des}</p>
+                    <h1 className="text-2xl md:text-4xl font-medium mt-3 leading-tight line-clamp-2">{title}</h1>
+                    <p className="font-gelasio line-clamp-2 md:text-xl leading-7 mt-4">{des}</p>
                 </div>
 
                 <div className="border-grey lg:border-1 lg:pl-8">
                     <p className="text-dark-grey mb-2 mt-9">Blog Title</p>
-                    <div className="flex relative">
+                    <div className="flex flex-col md:flex-row relative">
                     <input type="text" placeholder="" value={title} className="input-box pl-4 rounded-l-lg" onChange={handleBlogTitleChange} />
-                    <button 
-                        className="absolute top-0 right-0 w-[35%] rounded-tr-lg rounded-br-lg p-4 bg-gradient-to-br text-fuchsia-50 from-[#fe9a48] to-[#df4afd] via-[#9754f6] text-base font-bold"
+                        <button 
+                        className="absolute top-0 right-0 w-[30%] rounded-tr-lg rounded-br-lg md:p-4 p-2 bg-gradient-to-br text-fuchsia-50 from-[#fe9a48] to-[#df4afd] via-[#9754f6] md:text-base font-bold"
                         onClick={handleGenerateTitle}
-                    >
-                    Generate with AI&nbsp;
-                    <i className="fi fi-rr-sparkles"> </i>
-                    </button>
-                </div>
+                        >
+                            Generate&nbsp;
+                            <i className="fi fi-rr-sparkles"> </i>
+                        </button>
+                    </div>
 
                     <p className="text-dark-grey mb-2 mt-9">Add a short, engaging excerpt to posts!</p>
                     <textarea
