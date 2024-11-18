@@ -52,12 +52,12 @@ const HeroSection = () => {
         Join us in unleashing the power of storytelling.
         </p>
 
-        <div className="flex gap-20 md:gap-0 mt-10">
-          <Link to="/latest" className="w-1/4">
+        <div className="flex gap-4 mt-10">
+          <Link to="/latest" className="">
             <button className="btn h-12 md:w-44 w-40 text-sm md:text-base">get started</button>
           </Link>
 
-          <Link to="/about-us" className="w-1/4">
+          <Link to="/about-us" className="">
             <button className="btn2 h-12 w-32 md:w-40 border border-black bg-black text-white text-sm md:text-base">know us</button>
           </Link>
         </div>
