@@ -139,7 +139,7 @@ const BlogPage = () => {
       // Check if the error is due to rate limiting (status code 429 or custom message)
       if (err.response?.status === 429) {
         toast.error(
-          "Request limit reached. Please wait a minute and try again."
+          "Limit reached. Try again in a minute."
         );
       } else {
         // If it's another error, show the server's message or a fallback
