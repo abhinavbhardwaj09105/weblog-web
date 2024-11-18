@@ -173,7 +173,7 @@ const BlogEditor = () => {
         });
 
         const response = await axios.post(
-          import.meta.env.VITE_AI_MODELS_URL +  "/paraphrase",
+          import.meta.env.VITE_AI_MODELS_URL + "/paraphrase",
           { text: selectedText }
         );
 

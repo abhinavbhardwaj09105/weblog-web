@@ -60,7 +60,7 @@ const PublishForm = () => {
             // Show loading toast
             const loadingToastId = toast.loading("Title on the way..");
     
-            axios.post(import.meta.env.VITE_AI_MODELS_URL + '/title', { text: des }, {
+            axios.post(import.meta.env.VITE_AI_MODELS_URL + "/title", { text: des }, {
             })
             .then(response => {
                 setBlog({ ...blog, title: response.data.title });
