@@ -219,7 +219,7 @@ const BlogEditor = () => {
 
       if (err.response?.status === 429) {
         toast.error(
-          "Request limit reached. Please wait a minute and try again."
+          "Limit reached. Try again in a minute."
         );
       } else {
         const errorMessage =
@@ -297,7 +297,7 @@ const BlogEditor = () => {
 
       if (err.response?.status === 429) {
         toast.error(
-          "Request limit reached. Please wait a minute and try again."
+          "Limit reached. Try again in a minute."
         );
       } else {
         const errorMessage =

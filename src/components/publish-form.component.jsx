@@ -68,7 +68,7 @@ const PublishForm = () => {
             })
             .catch(error => {
                 if (error.response?.status === 429) {
-                    toast.error("Request limit reached. Please wait a minute and try again.", { id: loadingToastId });
+                    toast.error("Limit reached. Try again in a minute.", { id: loadingToastId });
                 } else {
                     const errorMessage = error.response?.data?.message || "Failed to generate title. Please try again later.";
                     toast.error(errorMessage, { id: loadingToastId });
