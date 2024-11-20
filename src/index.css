@@ -116,8 +116,8 @@
     }
 
     .highlight {
-        @apply bg-yellow-400 text-black shadow-md transition-all duration-300 ease-in-out transform;
-    }     
+        @apply bg-[#928feb] transition-all duration-300 ease-in-out transform;
+    }   
 }
 
 .ce-block__content, .ce-toolbar__content{
