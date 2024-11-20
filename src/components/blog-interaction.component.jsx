@@ -82,8 +82,8 @@ const BlogInteraction = () => {
 
   const handleShare = async () => {
     const shareData = {
-      title: "Check this out!",
-      text: `Hey, check out this blog. ${location.href}`,
+      title: title,
+      text: `Hey, check out this blog.`,
       url: location.href,
     };
   
