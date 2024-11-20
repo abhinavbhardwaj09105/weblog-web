@@ -482,7 +482,7 @@ const BlogEditor = () => {
                 title="Get better tone for cselected content"
                 onClick={handleParaphrase}
               >
-                Do Paraphrase&nbsp;
+                Paraphrase&nbsp;
                 <i className="fi fi-sr-attribution-pencil"> </i>
               </button>
             )}
