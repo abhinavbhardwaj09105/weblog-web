@@ -12,7 +12,7 @@ Welcome to **WeBlog**, your one-stop platform for transforming your blog posts w
 ### Features
 
 - **Smart Summary**  
-  Need a concise overview of your blog post? Our AI-powered summary tool delivers a balanced, detailed summary that captures all the key points in a digestible format.
+  Need a concise overview of a blog post? Our AI-powered summary tool delivers a balanced, detailed summary that captures all the key points in a digestible format.
 
 - **AI-Powered Title Generator**  
   Struggling with a catchy title? Let our AI help! Generate the perfect title that grabs attention and keeps readers engaged.
@@ -59,8 +59,8 @@ Welcome to **WeBlog**, your one-stop platform for transforming your blog posts w
   
 - **AI-Driven**: We use cutting-edge AI to ensure that your content is both engaging and polished.
 
-> Rate Limit: The platform imposes a rate limit of 3 requests per minute. Users must comply with this limit to ensure optimal performance. **AI Usage**, all AI-related features on the platform are powered by Google Gemini models. By using the platform, you acknowledge and consent to the use of Google Gemini AI for these features.
+> <h5>Rate Limit: The platform imposes a rate limit of 3 requests per minute. Users must comply with this limit to ensure optimal performance. AI Usage, all AI-related features on the platform are powered by Google Gemini models. By using the platform, you acknowledge and consent to the use of Google Gemini AI for these features.</h5>
 
 ---
 
-Let **WeBlog: Curiosity to Clarity** take your content from good to great! 🎉
+Let us take your content from good to great! 🎉
