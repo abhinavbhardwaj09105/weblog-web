@@ -87,7 +87,7 @@ const UserAuthForm = ({ type }) => {
                         <img src={coverImage} alt="" className="" />
                     </div>
                     <Toaster />
-                    <form id="formElement" className="w-auto max-w-[400px]">
+                    <form id="formElement" className="w-2/3 max-w-[400px]">
                         <h1 className="md:text-3xl text-2xl font-semibold capitalize text-center mb-4 md:mb-24">
                             {type === "sign-in" ? "welcome, we missed you" : "Connect with us"}
                         </h1>
