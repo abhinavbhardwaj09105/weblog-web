@@ -12,7 +12,7 @@ const AboutUsPage = () => {
           </h1>
           <h1 className="text-2xl text-justify md:text-left md:text-3xl mt-4">
             Every great story starts with a spark of inspiration, and ours is no
-            exception. <br /> A random brainstorming session fueled by
+            exception. <br className="hidden md:show" /> A random brainstorming session fueled by
             curiosity, asking,{" "}
             <span className="text-2xl md:text-3xl font-gelasio text-gray-950 bg-logoGreen">
               “What if blogging wasn’t just about writing, but an immersive
