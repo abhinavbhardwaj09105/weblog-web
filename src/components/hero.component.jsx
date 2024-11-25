@@ -42,9 +42,11 @@ const HeroSection = () => {
       <section className="relative md:py-28 py-12 z-10 flex flex-col md:w-2/3 w-full">
         <h1 className="mb-6 text-4xl font-extralight font-inter leading-tight tracking-tighter text-black md:text-5xl">
           Discover and share your unique perspective with{" "}
+          <Link to="/about-us">
           <span className="text-4xl md:text-5xl font-gelasio text-black underline decoration-logoGreen cursor-pointer">
             intelligent features
           </span>{" "}
+          </Link>
           designed for modern storytellers.
         </h1>
         <p className="text-base leading-7 md:leading-9 text-black md:text-2xl">
