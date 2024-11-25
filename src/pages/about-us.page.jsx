@@ -7,10 +7,10 @@ const AboutUsPage = () => {
       {/* Section 1: About Us */}
       <section className="md:h-cover bg-transparent sticky top-24 justify-between items-center flex md:flex-row flex-col-reverse z-10">
         <div className="tracking-tighter md:w-1/2">
-          <h1 className="text-4xl md:text-7xl font-gelasio">
+          <h1 className="text-3xl md:text-7xl font-gelasio">
             How It All Began..
           </h1>
-          <h1 className="text-2xl md:text-3xl mt-4">
+          <h1 className="text-xl md:text-3xl mt-4">
             Every great story starts with a spark of inspiration, and ours is no
             exception. <br /> A random brainstorming session fueled by
             curiosity, asking,{" "}
