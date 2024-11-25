@@ -159,7 +159,7 @@ const PublishForm = () => {
                     <div className="flex flex-col md:flex-row relative">
                     <input type="text" placeholder="" value={title} className="input-box pl-4 rounded-l-lg" onChange={handleBlogTitleChange} />
                         <button 
-                        className="absolute top-0 right-0 w-[30%] rounded-tr-lg rounded-br-lg md:p-4 p-2 bg-gradient-to-br text-fuchsia-50 from-[#fe9a48] to-[#df4afd] via-[#9754f6] md:text-base font-bold"
+                        className="absolute top-0 right-0 w-[30%] h-14 rounded-tr-lg rounded-br-lg md:p-4 p-2 bg-gradient-to-br text-fuchsia-50 from-[#fe9a48] to-[#df4afd] via-[#9754f6] md:text-base font-bold"
                         onClick={handleGenerateTitle}
                         >
                             Generate&nbsp;
