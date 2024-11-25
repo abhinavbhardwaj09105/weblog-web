@@ -10,7 +10,7 @@ const AboutUsPage = () => {
           <h1 className="text-3xl md:text-7xl font-gelasio">
             How It All Began..
           </h1>
-          <h1 className="text-xl md:text-3xl mt-4">
+          <h1 className="text-xl text-justify md:text-left md:text-3xl mt-4">
             Every great story starts with a spark of inspiration, and ours is no
             exception. <br /> A random brainstorming session fueled by
             curiosity, asking,{" "}
