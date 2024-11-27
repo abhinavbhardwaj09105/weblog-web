@@ -5,7 +5,7 @@ const AboutUsPage = () => {
   return (
     <>
       {/* Section 1: About Us */}
-      <section className="md:h-cover bg-transparent sticky top-24 justify-between items-center flex md:flex-row flex-col-reverse z-10">
+      <section className="md:h-cover bg-transparent md:sticky top-24 justify-between items-center flex md:flex-row flex-col-reverse z-10">
         <div className="tracking-tighter md:w-1/2">
           <h1 className="text-3xl md:text-7xl font-gelasio">
             How It All Began..
