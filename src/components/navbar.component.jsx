@@ -128,7 +128,7 @@ const Navbar = () => {
                         </>
                         :
                         <>
-                            <Link className="btn-dark bg-logoGreen text-black py-2" to="/signin">
+                            <Link className="btn-dark bg-logoGreen text-gray-950 py-2" to="/signin">
                             Sign In
                             </Link>
                         </>
